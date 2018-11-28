@@ -1,3 +1,17 @@
+# summary stats of time (in secs) to excute queries across various atlas instances
+
+-------- d2v --------
+       total_load_time
+count         6.000000
+mean          4.483825
+std           1.265144
+min           3.674607
+25%           3.848363
+50%           4.146284
+75%           4.155247
+max           7.028486
+
+
 -------- ec2 --------
        total_load_time
 count         6.000000
