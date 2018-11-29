@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import logging
 
 from selenium import webdriver
@@ -9,7 +10,8 @@ from timeit import default_timer as timer
 import pandas as pd
 
 base_urls = {
-    'ec2': 'http://myohdsiapplication.us-east-1.elasticbeanstalk.com',
+    #'ec2': 'http://myohdsiapplication.us-east-1.elasticbeanstalk.com',
+    'd2v': 'http://140.226.182.113:8080/atlas/',
     'demo': 'http://www.ohdsi.org/web/atlas/'
 }
 
